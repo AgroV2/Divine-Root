@@ -1,0 +1,14 @@
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\bin\Debug\net9.0\InspectNPCLoader.exe
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\bin\Debug\net9.0\InspectNPCLoader.deps.json
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\bin\Debug\net9.0\InspectNPCLoader.runtimeconfig.json
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\bin\Debug\net9.0\InspectNPCLoader.dll
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\bin\Debug\net9.0\InspectNPCLoader.pdb
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\obj\Debug\net9.0\InspectNPCLoader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\obj\Debug\net9.0\InspectNPCLoader.AssemblyInfoInputs.cache
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\obj\Debug\net9.0\InspectNPCLoader.AssemblyInfo.cs
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\obj\Debug\net9.0\InspectNPCLoader.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\obj\Debug\net9.0\InspectNPCLoader.dll
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\obj\Debug\net9.0\refint\InspectNPCLoader.dll
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\obj\Debug\net9.0\InspectNPCLoader.pdb
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\obj\Debug\net9.0\InspectNPCLoader.genruntimeconfig.cache
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\_Dev\InspectNPCLoader\obj\Debug\net9.0\ref\InspectNPCLoader.dll

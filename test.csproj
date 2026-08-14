@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\tModLoader.targets" />
+
+	<PropertyGroup>
+		<AssemblyName>DivineRoot</AssemblyName>
+		<RootNamespace>DivineRoot</RootNamespace>
+		<Nullable>annotations</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="_Dev\InspectNPCLoader\**\*.cs" />
+		<EmbeddedResource Remove="_Dev\InspectNPCLoader\**\*" />
+		<None Remove="_Dev\InspectNPCLoader\**\*" />
+	</ItemGroup>
+
+</Project>

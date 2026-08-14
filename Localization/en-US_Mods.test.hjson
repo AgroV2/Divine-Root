@@ -1,0 +1,77 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Buffs: {
+	StarSnakeBuff: {
+		DisplayName: Звездолов
+		Description: Едва заметные два глаза по бокам морды, на удивление замечают упавшие звёзды порой раньше тебя!
+	}
+}
+
+Items: {
+	StarSnakeItem: {
+		DisplayName: Звездолов
+		Tooltip: Призывает змея-звездолова
+	}
+
+	test: {
+		DisplayName: test
+		Tooltip:
+			'''
+			Template of an item
+			Replacing this tooltip is duty
+			It's snowing on Mt.Fuji
+			'''
+	}
+
+	ScreenClickDasher: {
+		DisplayName: РђРЅР°Р»СЊРЅР°СЏ РїСЂРѕР±РєР° РђР»Р»-РјРµСЂР°
+		Tooltip: Р•Р±Р°С€РёС‚ РІРїРµСЂС‘Рґ РєР°Рє С†РѕР№ РІ Р°РІС‚РѕР±СѓСЃ, Р·Р° 40 РјР°РЅС‹
+	}
+
+	BlackHarpyFeather: {
+		Tooltip: РџРµСЂРѕ РІС‹РґСЂР°РЅРЅРѕРµ РёР· РєРѕР¶Рё С‡С‘СЂРЅРѕР№ РіР°СЂРїРёРё, РњР°С‚РµСЂРёР°Р»
+		DisplayName: РџРµСЂРѕ С‡С‘СЂРЅРѕР№ РіР°СЂРїРёРё
+	}
+
+	Svitok: {
+		DisplayName: РЎРІРёС‚РѕРє СЃРѕР¶Р¶С‘РЅРѕР№ Р¶РµСЂС‚РІС‹
+		Tooltip: Р–РµСЂС‚РІР° СѓР¶Рµ РїСЂРёРЅРµСЃРµРЅР°...
+	}
+
+	QuantumAnihilator: {
+		DisplayName: РљРІР°РЅС‚РѕРІС‹Р№ Р°РЅРёРіРёР»СЏС‚РѕСЂ
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	BlackHarpy.DisplayName: Р§С‘СЂРЅР°СЏ РіР°СЂРїРёСЏ
+	HarpyNoShots.DisplayName: Р§С‘СЂРЅР°СЏ РіР°СЂРїРёСЏ
+	HarpyNoShots_Alt.DisplayName: Р§С‘СЂРЅР°СЏ Р“Р°СЂРїРёСЏ
+	MagicalPhaseDemonDebug.DisplayName: магическая фаза демон откладка
+}
+
+Projectiles: {
+	BharpyFeather.DisplayName: РџРµСЂРѕ С‡С’СЂРЅРѕР№ РіР°СЂРїРёРё
+	QuantumAnihilatorProj.DisplayName: Quantum Anihilator Proj
+	StarSnakeHead.DisplayName: Звездолов
+	StarSnakeBody.DisplayName: Звездолов
+	StarSnakeTailSeg.DisplayName: Звездолов
+}
+
+Configs: {
+	NpcTankConfig: {
+		DisplayName: Npc Tank Config
+
+		EnableTownNpcHugeHP: {
+			Label: Enable Town Npc Huge H P
+			Tooltip: ""
+		}
+
+		TownNpcLifeMax: {
+			Label: Town Npc Life Max
+			Tooltip: ""
+		}
+	}
+}
+

@@ -1,0 +1,12 @@
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\obj\Debug\net8.0\test.csproj.AssemblyReference.cache
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\obj\Debug\net8.0\test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\obj\Debug\net8.0\test.AssemblyInfoInputs.cache
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\obj\Debug\net8.0\test.AssemblyInfo.cs
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\obj\Debug\net8.0\test.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\bin\Debug\net8.0\DivineRoot.deps.json
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\bin\Debug\net8.0\DivineRoot.dll
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\bin\Debug\net8.0\DivineRoot.pdb
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\obj\Debug\net8.0\DivineRoot.dll
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\obj\Debug\net8.0\refint\DivineRoot.dll
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\obj\Debug\net8.0\DivineRoot.pdb
+C:\Users\User\Documents\My Games\Terraria\tModLoader\ModSources\DivineRoot\obj\Debug\net8.0\ref\DivineRoot.dll

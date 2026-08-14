@@ -1,0 +1,194 @@
+Mods: {
+	DivineRoot: {
+		NPCs: {
+			DollGuide: {
+				Census.SpawnCondition: Conditions unknown
+
+				TownNPCMood: {
+					Princess_LovesNPC: Мне нравится {NPCName}.
+					LikeNPC_Princess: Мне нравится {NPCName}.
+					HateCrowded: Я ненавижу, что тут людно.
+					DislikeCrowded: Мне не нравится, что тут людно.
+					LoveSpace: Мне нравится, как тут просторно.
+					FarFromHome: Я далеко от дома.
+					NoHome: Ужасно, что у меня нет дома.
+					Content: Я доволен.
+				}
+
+				DisplayName: Doll Guide
+			}
+
+			HarpyNoShots.DisplayName: Harpy No Shots
+
+			CouncilOfSisters.DisplayName: Council Of Sisters
+			MagicalPhaseDemonDebug.DisplayName: Magical Phase Demon Debug
+			PrimordialDemon.DisplayName: Primordial Demon
+		}
+
+		Configs: {
+			NpcTankConfig: {
+				TownNpcLifeMax: {
+					Tooltip: ""
+					Label: Town Npc Life Max
+				}
+
+				EnableTownNpcHugeHP: {
+					Tooltip: ""
+					Label: Enable Town Npc Huge H P
+				}
+
+				DisplayName: Npc Tank Config
+			}
+
+			VisualFilterConfig: {
+				DisplayName: Ретро-фильтр
+
+				EnableGlobalRetroFilter: {
+					Label: Включить ретро-фильтр
+					Tooltip: Накладывает приглушённый сиренево-серый фильтр на весь экран игры.
+				}
+			}
+		}
+
+		Projectiles: {
+			QuantumAnihilatorProj.DisplayName: Quantum Anihilator Proj
+			BharpyFeather.DisplayName: Bharpy Feather
+			NaginataSwingProj.DisplayName: Naginata Swing Proj
+			NaginataSpearProj.DisplayName: Naginata Spear Proj
+			CouncilOfSistersTail.DisplayName: Council Of Sisters Tail
+			CouncilOfSistersBlood.DisplayName: Council Of Sisters Blood
+			CouncilOfSistersWhip.DisplayName: Council Of Sisters Whip
+			ScytheEdemProjectile.DisplayName: Scythe Edem Projectile
+			RodEdemBeam.DisplayName: Rod Edem Beam
+			RodEdemChargeOrb.DisplayName: Rod Edem Charge Orb
+			RodEdemPetal.DisplayName: Rod Edem Petal
+			LeafExplosion.DisplayName: Leaf Explosion
+			LeafProjectile.DisplayName: Leaf Projectile
+			SkyNightSerpentPetProjectile.DisplayName: Змей ночного неба
+			StarSnakeBody.DisplayName: Star Snake Body
+			StarSnakeHead.DisplayName: Star Snake Head
+			StarSnakeTailSeg.DisplayName: Star Snake Tail Seg
+			SistersBloodTrailProjectile.DisplayName: Sisters Blood Trail Projectile
+			SistersBurstExplosionProjectile.DisplayName: Sisters Burst Explosion Projectile
+			SistersEdgeHandProjectile.DisplayName: Sisters Edge Hand Projectile
+			SistersGroundRootProjectile.DisplayName: Sisters Ground Root Projectile
+			SistersLeafWaveProjectile.DisplayName: Sisters Leaf Wave Projectile
+		}
+
+		Items: {
+			DivineRoot: {
+				DisplayName: DivineRoot
+				Tooltip:
+					'''
+					Template of an item
+					Replacing this tooltip is duty
+					It's snowing on Mt.Fuji
+					'''
+			}
+
+			ScreenClickDasher: {
+				DisplayName: Анальная пробка Алл-мера
+				Tooltip: Ебашит вперёд как цой в автобус, за 40 маны
+			}
+
+			BlackHarpyFeather: {
+				Tooltip: Перо выдранное из кожи чёрной гарпии, Материал
+				DisplayName: Перо чёрной гарпии
+			}
+
+			Svitok: {
+				DisplayName: Свиток сожжёной жертвы
+				Tooltip: Жертва уже принесена...
+			}
+
+			QuantumAnihilator: {
+				DisplayName: Квантовый анигилятор
+				Tooltip: ""
+			}
+
+			NpcExecutioner: {
+				DisplayName: РџСЂРёРіРѕРІРѕСЂ
+				Tooltip: РњРіРЅРѕРІРµРЅРЅРѕ СѓР±РёРІР°РµС‚ NPC РїРѕРґ РєСѓСЂСЃРѕСЂРѕРј
+			}
+
+			NaginataDR: {
+				Tooltip: ""
+				DisplayName: Нагината
+			}
+
+			Onigiri: {
+				Tooltip: ""
+				DisplayName: Онигири
+			}
+
+			Masakari: {
+				DisplayName: Масакари
+				Tooltip: ""
+			}
+
+			ScytheEdem: {
+				DisplayName: Коса Ветви Эдема
+				Tooltip: ""
+			}
+
+			TotSStructureDebugger: {
+				DisplayName: Tot S Structure Debugger
+				Tooltip: ""
+			}
+
+			SisterStatueItem: {
+				DisplayName: Статуя Сестры
+				Tooltip: ""
+			}
+
+			QueenStatueTotSItem: {
+				DisplayName: Статуя королевы
+				Tooltip: ""
+			}
+
+			RodEdem: {
+				DisplayName: Rod Edem
+				Tooltip: ""
+			}
+
+			RottenEggPetItem: {
+				DisplayName: Тухлое яйцо
+				Tooltip: Призывает питомца "Змей ночного неба"
+			}
+
+			SkyNightSerpentItem: {
+				DisplayName: Rotten Egg
+				Tooltip: Summons the "Serpent of the Night Sky" pet
+			}
+
+			StarSnakeItem: {
+				DisplayName: Star Snake Item
+				Tooltip: ""
+			}
+		}
+
+		Buffs: {
+			SkyNightSerpentBuff: {
+				DisplayName: Змей ночного неба
+				Description: Высматривает упавшие звезды
+			}
+
+			StarSnakeBuff: {
+				DisplayName: Star Snake Buff
+				Description: Mods.DivineRoot.Buffs.StarSnakeBuff.Description
+			}
+
+			SistersShriekDebuff: {
+				DisplayName: Sisters Shriek Debuff
+				Description: Mods.DivineRoot.Buffs.SistersShriekDebuff.Description
+			}
+		}
+
+		Tiles: {
+			SisterStatue.DisplayName: Статуя Сестры
+			QueenStatueTotS.DisplayName: Статуя королевы
+		}
+
+	}
+}
+
