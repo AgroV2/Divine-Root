@@ -5,7 +5,7 @@ using Terraria.IO;
 using Terraria.WorldBuilding;
 using Terraria.DataStructures;
 
-namespace DivineRoot
+namespace DivineRoot.Content.Systems.AshwoodBiome
 {
     
     public class AshwoodGenPass : GenPass

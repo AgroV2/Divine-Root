@@ -3,8 +3,8 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 using Terraria.DataStructures;
-
-namespace DivineRoot
+using DivineRoot.Content.Projectiles;
+namespace DivineRoot.Content.Items.Weapons
 {
     public class BloodBow : ModItem
     {

@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-namespace DivineRoot
+namespace DivineRoot.Content.Items.Ammo
 {
     
     

@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Microsoft.Xna.Framework;
 
-namespace DivineRoot
+namespace DivineRoot.Content.Items.Weapons
 {
     public class BloodCandelabra : ModItem
     {

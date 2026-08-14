@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Terraria.Audio;
 
-namespace DivineRoot
+namespace DivineRoot.Content.Projectiles
 {
     public class BloodSpitProjectile : ModProjectile
     {

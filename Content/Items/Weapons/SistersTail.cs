@@ -4,7 +4,7 @@ using Terraria.ModLoader;
 using Terraria.DataStructures;
 using Microsoft.Xna.Framework;
 using Terraria.GameContent.Creative;
-
+using DivineRoot.Content.Projectiles;
 namespace DivineRoot.Content.Items.Weapons
 {
 	public class SistersTail : ModItem

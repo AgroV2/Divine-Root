@@ -3,8 +3,8 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Audio;
 using Terraria.DataStructures;
-
-namespace DivineRoot
+using DivineRoot.Content.Systems.AshwoodBiome;
+namespace DivineRoot.Content.Items.Spawners
 {
     public class DemonSpawner : ModItem
     {

@@ -6,9 +6,9 @@ using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace DivineRoot
+namespace DivineRoot.Content.Projectiles
 {
-	public class WhipProjectile : ModProjectile
+	public class SistersTailProjectile: ModProjectile
 	{
 		public override void SetStaticDefaults() {
 			ProjectileID.Sets.IsAWhip[Type] = true;

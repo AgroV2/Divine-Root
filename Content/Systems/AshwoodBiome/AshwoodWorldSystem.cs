@@ -6,7 +6,7 @@ using Terraria.WorldBuilding;
 using Terraria.DataStructures;
 using System.IO;
 
-namespace DivineRoot
+namespace DivineRoot.Content.Systems.AshwoodBiome
 {
     
     public class AshwoodWorldSystem : ModSystem

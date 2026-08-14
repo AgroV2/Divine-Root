@@ -19,7 +19,6 @@ Mods: {
 			}
 
 			HarpyNoShots.DisplayName: Harpy No Shots
-
 			CouncilOfSisters.DisplayName: Council Of Sisters
 			MagicalPhaseDemonDebug.DisplayName: Magical Phase Demon Debug
 			PrimordialDemon.DisplayName: Primordial Demon
@@ -73,6 +72,10 @@ Mods: {
 			SistersEdgeHandProjectile.DisplayName: Sisters Edge Hand Projectile
 			SistersGroundRootProjectile.DisplayName: Sisters Ground Root Projectile
 			SistersLeafWaveProjectile.DisplayName: Sisters Leaf Wave Projectile
+			BloodSpikeProjectile.DisplayName: Blood Spike Projectile
+			BloodSpitProjectile.DisplayName: Blood Spit Projectile
+			SistersTailProjectile.DisplayName: Sisters Tail Projectile
+			SistersTailSplashProjectile.DisplayName: Sisters Tail Splash Projectile
 		}
 
 		Items: {
@@ -165,6 +168,56 @@ Mods: {
 				DisplayName: Star Snake Item
 				Tooltip: ""
 			}
+
+			samuraidodge: {
+				DisplayName: samuraidodge
+				Tooltip: ""
+			}
+
+			CopperMoneySafe: {
+				DisplayName: Copper Money Safe
+				Tooltip: ""
+			}
+
+			GoldMoneySafe: {
+				DisplayName: Gold Money Safe
+				Tooltip: ""
+			}
+
+			PlatinumMoneySafe: {
+				DisplayName: Platinum Money Safe
+				Tooltip: ""
+			}
+
+			SilverMoneySafe: {
+				DisplayName: Silver Money Safe
+				Tooltip: ""
+			}
+
+			DemonSpawner: {
+				DisplayName: Demon Spawner
+				Tooltip: ""
+			}
+
+			BloodBow: {
+				DisplayName: Blood Bow
+				Tooltip: ""
+			}
+
+			BloodCandelabra: {
+				DisplayName: Blood Candelabra
+				Tooltip: ""
+			}
+
+			BloodSpike: {
+				DisplayName: Blood Spike
+				Tooltip: ""
+			}
+
+			SistersTail: {
+				DisplayName: Sisters Tail
+				Tooltip: ""
+			}
 		}
 
 		Buffs: {
@@ -189,6 +242,11 @@ Mods: {
 			QueenStatueTotS.DisplayName: Статуя королевы
 		}
 
+		Biomes: {
+			AshwoodBiome: {
+				DisplayName: Ashwood Biome
+				TownNPCDialogueName: the Ashwood Biome
+			}
+		}
 	}
 }
-

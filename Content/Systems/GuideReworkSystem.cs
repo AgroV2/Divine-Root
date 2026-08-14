@@ -6,7 +6,7 @@ using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace DivineRoot.Content.Global
+namespace DivineRoot.Content.Systems
 {
     public class GuideReworkDrawGlobalNPC : GlobalNPC
     {

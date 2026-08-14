@@ -5,7 +5,7 @@ using Terraria.ID;
 using Microsoft.Xna.Framework;
 using System.Collections.Generic;
 
-namespace DivineRoot
+namespace DivineRoot.Content.Items.Accesories
 {
     public class samuraidodge : ModItem
     {

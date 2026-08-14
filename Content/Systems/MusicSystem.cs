@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace DivineRoot.Systems
+namespace DivineRoot.Content.Systems
 {
     public class MusicSystem : ModSystem
     {

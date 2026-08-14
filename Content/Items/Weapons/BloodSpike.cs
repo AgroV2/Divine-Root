@@ -5,8 +5,9 @@ using Microsoft.Xna.Framework;
 using Terraria.DataStructures;
 using System;
 using System.Collections.Generic;
+using DivineRoot.Content.Projectiles;
 
-namespace DivineRoot
+namespace DivineRoot.Content.Items.Weapons
 {
     public class BloodSpike : ModItem
     {

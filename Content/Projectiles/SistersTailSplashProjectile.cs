@@ -8,11 +8,11 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Audio;
 
-namespace DivineRoot
+namespace DivineRoot.Content.Projectiles
 {
-	public class SplachWhip : ModProjectile
+	public class SistersTailSplashProjectile : ModProjectile
 	{
-		public override string Texture => "test/Content/WhipProjectile";
+		public override string Texture => "DivineRoot/Content/Projectiles/SistersTailProjectile";
 
 		
 		private bool hasAppliedEffects = false;
