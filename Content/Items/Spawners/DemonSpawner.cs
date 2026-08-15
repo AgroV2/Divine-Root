@@ -4,6 +4,7 @@ using Terraria.ModLoader;
 using Terraria.Audio;
 using Terraria.DataStructures;
 using DivineRoot.Content.Systems.AshwoodBiome;
+using DivineRoot.Content.NPCs.PrimordialDemon;
 namespace DivineRoot.Content.Items.Spawners
 {
     public class DemonSpawner : ModItem
@@ -31,7 +32,7 @@ namespace DivineRoot.Content.Items.Spawners
 
         public override bool CanUseItem(Player player)
         {
-            return player.InModBiome<AshwoodBiome>() && !NPC.AnyNPCs(NPCID.KingSlime);
+            return player.InModBiome<AshwoodBiome>() && !NPC.AnyNPCs(ModContent.NPCType<PrimordialDemon>());
         }
 
         public override bool? UseItem(Player player)
@@ -40,11 +41,11 @@ namespace DivineRoot.Content.Items.Spawners
             {
                 if (Main.netMode != NetmodeID.MultiplayerClient)
                 {
-                    NPC.SpawnOnPlayer(player.whoAmI, NPCID.KingSlime);
+                    NPC.SpawnOnPlayer(player.whoAmI, ModContent.NPCType<PrimordialDemon>());
                 }
                 else
                 {
-                    NetMessage.SendData(MessageID.SpawnBossUseLicenseStartEvent, number: player.whoAmI, number2: NPCID.KingSlime);
+                    NetMessage.SendData(MessageID.SpawnBossUseLicenseStartEvent, number: player.whoAmI, number2: ModContent.NPCType<PrimordialDemon>());
                 }
             }
             return true;

@@ -35,6 +35,9 @@ namespace DivineRoot.Content.Systems.AshwoodBiome
             {
                 for (int x = 0; x < Main.maxTilesX; x++)
                 {
+                    if (!AshwoodWorldSystem.IsInAshwoodRegion(x, y))
+                        continue;
+
                     Tile tile = Main.tile[x, y];
                     if (tile != null && tile.HasTile && tile.TileType == TileID.AshWood)
                     {
@@ -54,7 +57,7 @@ namespace DivineRoot.Content.Systems.AshwoodBiome
                 if (neighborCount < RequiredNeighbors)
                     continue;
 
-                MarkRadius(core.X, core.Y, underworldTop, result);
+                MarkRadius(core.X, core.Y, result);
 
                 if (ashWoodTiles.Count > 0)
                     progress.Set(0.5f + (i / (float)ashWoodTiles.Count) * 0.5f);
@@ -73,7 +76,7 @@ namespace DivineRoot.Content.Systems.AshwoodBiome
 
                     int x = cx + dx;
                     int y = cy + dy;
-                    if (x < 0 || x >= Main.maxTilesX || y < 0 || y >= Main.maxTilesY)
+                    if (!AshwoodWorldSystem.IsInAshwoodRegion(x, y))
                         continue;
 
                     Tile tile = Main.tile[x, y];
@@ -84,7 +87,7 @@ namespace DivineRoot.Content.Systems.AshwoodBiome
             return count;
         }
 
-        private void MarkRadius(int cx, int cy, int underworldTop, HashSet<Point16> result)
+        private void MarkRadius(int cx, int cy, HashSet<Point16> result)
         {
             int rSq = BiomeRadius * BiomeRadius;
             for (int dy = -BiomeRadius; dy <= BiomeRadius; dy++)
@@ -96,10 +99,8 @@ namespace DivineRoot.Content.Systems.AshwoodBiome
 
                     int x = cx + dx;
                     int y = cy + dy;
-                    
-                    if (y < underworldTop)
-                        continue;
-                    if (x < 0 || x >= Main.maxTilesX || y < 0 || y >= Main.maxTilesY)
+
+                    if (!AshwoodWorldSystem.IsInAshwoodRegion(x, y))
                         continue;
 
                     result.Add(new Point16(x, y));

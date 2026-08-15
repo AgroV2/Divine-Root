@@ -14,7 +14,7 @@ namespace DivineRoot.Content.Systems.AshwoodBiome
         public override bool IsBiomeActive(Player player)
         {
             Point tile = player.Center.ToTileCoordinates();
-            return AshwoodWorldSystem.IsInAshwood(tile.X, tile.Y);
+            return AshwoodWorldSystem.IsInAshwoodRegion(tile.X, tile.Y);
         }
     }
 }

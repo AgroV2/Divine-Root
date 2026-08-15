@@ -29,9 +29,22 @@ namespace DivineRoot.Content.Systems.AshwoodBiome
             AshwoodTiles = new HashSet<Point16>();
         }
 
+        public static bool IsInAshwoodRegion(int tileX, int tileY)
+        {
+            int edgeWidth = Main.maxTilesX / 6;
+            int rightStart = Main.maxTilesX - edgeWidth;
+            bool isRightRegion = tileX >= rightStart;
+            bool isLeftRegion = tileX < edgeWidth;
+            bool calamityLoaded = ModLoader.TryGetMod("CalamityMod", out _);
+
+            return tileY >= Main.UnderworldLayer && tileY < Main.maxTilesY
+                && tileX >= 0 && tileX < Main.maxTilesX
+                && (isRightRegion || (!calamityLoaded && isLeftRegion));
+        }
+
         public static bool IsInAshwood(int tileX, int tileY)
         {
-            return AshwoodTiles.Contains(new Point16(tileX, tileY));
+            return IsInAshwoodRegion(tileX, tileY);
         }
 
         public override void SaveWorldData(TagCompound tag)
