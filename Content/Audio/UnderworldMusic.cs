@@ -1,3 +1,4 @@
+using DivineRoot.Content.Configs;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -9,6 +10,9 @@ namespace DivineRoot.Content.Audio
 
         public override bool IsSceneEffectActive(Player player)
         {
+            if (!ModContent.GetInstance<CustomMusicConfig>().CustomMusic)
+                return false;
+
             if (!player.ZoneUnderworldHeight)
                 return false;
 
@@ -19,7 +23,7 @@ namespace DivineRoot.Content.Audio
         }
 
         public override int Music =>
-            MusicLoader.GetMusicSlot(Mod, "Content/Music/HellDivineRoot");
+            MusicLoader.GetMusicSlot("DivineRoot/Content/Music/HellDivineRoot");
 
         private static bool AnyBossAlive()
         {

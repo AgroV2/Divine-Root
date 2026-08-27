@@ -11,4 +11,13 @@ namespace DivineRoot.Content.Configs
         [DefaultValue(true)]
         public bool EnableGlobalRetroFilter;
     }
+
+    public class CustomMusicConfig : ModConfig
+    {
+        public override ConfigScope Mode => ConfigScope.ClientSide;
+
+        [Label("Custom Music")]
+        [DefaultValue(true)]
+        public bool CustomMusic;
+    }
 }

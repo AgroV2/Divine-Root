@@ -47,6 +47,15 @@ Mods: {
 					// Tooltip: Накладывает приглушённый сиренево-серый фильтр на весь экран игры.
 				}
 			}
+
+			CustomMusicConfig: {
+				CustomMusic: {
+					// Tooltip: ""
+					// Label: Custom Music
+				}
+
+				// DisplayName: Custom Music Config
+			}
 		}
 
 		Projectiles: {
@@ -217,6 +226,11 @@ Mods: {
 			SistersTail: {
 				// DisplayName: Sisters Tail
 				// Tooltip: ""
+			}
+
+			DemonCrossbow: {
+				// Tooltip: ""
+				// DisplayName: Demon Crossbow
 			}
 		}
 

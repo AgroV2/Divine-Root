@@ -1,30 +1,31 @@
+using DivineRoot.Content.Configs;
 using Terraria;
 using Terraria.ModLoader;
 
 namespace DivineRoot.Content.Systems
 {
-    public class MusicSystem : ModSystem
+    public class MusicSystem : ModSceneEffect
     {
-        public override void Load()
+        public override SceneEffectPriority Priority => SceneEffectPriority.Environment;
+
+        public override bool IsSceneEffectActive(Player player)
         {
-            On_Main.UpdateAudio += Main_UpdateAudio;
+            if (!ModContent.GetInstance<CustomMusicConfig>().CustomMusic)
+                return false;
+
+            return (player.ZoneSnow && !player.ZoneUnderworldHeight) ||
+                (Main.dayTime && player.townNPCs > 2f && !player.ZoneSnow && !player.ZoneUnderworldHeight);
         }
 
-        public override void Unload()
+        public override int Music
         {
-            On_Main.UpdateAudio -= Main_UpdateAudio;
-        }
-
-        private void Main_UpdateAudio(On_Main.orig_UpdateAudio orig, Main self)
-        {
-            orig(self);
-
-            if (Main.gameMenu || Main.LocalPlayer is null || !Main.LocalPlayer.active)
-                return;
-
-            if (Main.LocalPlayer.ZoneUnderworldHeight)
+            get
             {
-                Main.newMusic = MusicLoader.GetMusicSlot(Mod, "Content/Music/HellDivineRoot");
+                Player player = Main.LocalPlayer;
+                if (player.ZoneSnow)
+                    return MusicLoader.GetMusicSlot("DivineRoot/Content/Music/WinterDivineRoot");
+
+                return MusicLoader.GetMusicSlot("DivineRoot/Content/Music/CityDayDivineRoot");
             }
         }
     }
